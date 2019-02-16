@@ -3,3 +3,5 @@
 A simple Chemistry simulator.
 
 From [this paper](https://pubs.acs.org/doi/suppl/10.1021/ja303822c/suppl_file/ja303822c_si_001.pdf)
+
+I used [this compiler](https://rextester.com/l/r_online_compiler)
