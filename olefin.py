@@ -105,7 +105,6 @@ def init_molecules_C6_C18(portion = (100, 100)):
 
 TASK = [2, 3]
 
-# task 1
 def __main__():
     if 1 in TASK:
         print("conducting task 1")
