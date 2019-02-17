@@ -62,7 +62,7 @@ repeats=100
 x=c(rep(0,110))
 for(j in 1:repeats) {
     source("D:/simulation_rxnmix.R")
-    molecules618<-c(rep(6,100),rep(18,100))
+    molecules618<-c(rep(6,100),rep(18,100)) # 100 times 6 and 100 times 18
     mix618<-rxnmix(molecules618,2000)
     densdat618<-hist(mix618,breaks=c(0:110),plot=FALSE)$density
     x=cbond(x,densdat618)
